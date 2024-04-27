@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>transaction-history Page</title>
+    <link rel="stylesheet" href="global.css">
+</head>
+
+<body>
+    <script>
+        function ToggleNav() {
+            var element = document.getElementById("side-bar");
+            if (element.style.height == "80vh") {
+                element.style.height = "0";
+                element.style.marginTop = "-100px";
+            } else {
+                element.style.height = "80vh";
+                element.style.marginTop = "0px"
+            }
+        }
+
+    </script>
+    <main class="section">
+        <div class="left-section">
+            <nav class="navbar">
+                <div class="menu">
+                    <button id="menu" class="menu" onclick="ToggleNav()"> <img
+                            src="https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/hamburger.svg"
+                            alt="hamburger-menu" width="40px"></button>
+                    <img src="https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/navProfile.svg"
+                        alt="logo-icon" class="logo-icon" width="40px">
+                </div>
+                <div class="side-bar" id="side-bar">
+                    <a href="/profile">
+                        <div class="side-row">
+                            <div class="icon">
+                                <img src="https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/profile.svg"
+                                    alt="profile" width={32} />
+                                <h4 class="h4">My Profile</h4>
+                            </div>
+                            <img src=" https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/arrow-nav.svg"
+                                alt="arrow" />
+                        </div>
+                    </a>
+                    <a href="/battle">
+                        <div class="side-row">
+                            <div class="icon">
+                                <img src="https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/cash.svg"
+                                    alt="win cash" width={32} />
+                                <h4 class="h4"> Win Cash</h4>
+                            </div>
+                            <img src=" https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/arrow-nav.svg"
+                                alt="arrow" />
+                        </div>
+                    </a>
+                    <a href="/wallet">
+                        <div class="side-row">
+                            <div class="icon">
+                                <img src="https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/wallet.svg"
+                                    alt="My wallet" width={32} />
+                                <h4 class="h4">My Wallet</h4>
+                            </div>
+                            <img src=" https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/arrow-nav.svg"
+                                alt="arrow" />
+                        </div>
+                    </a>
+                    <a href="/game-history">
+                        <div class="side-row">
+                            <div class="icon">
+                                <img src="https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/games.svg"
+                                    alt=" game-history" width={32} />
+                                <h4 class="h4">Games History</h4>
+                            </div>
+                            <img src=" https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/arrow-nav.svg"
+                                alt="arrow" />
+                        </div>
+                    </a>
+                    <a href="/transaction-history">
+                        <div class="side-row">
+                            <div class="icon">
+                                <img src="https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/transaction.svg"
+                                    alt="transaction-history" width={32} />
+                                <h4 class="h4">Transaction History</h4>
+                            </div>
+                            <img src=" https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/arrow-nav.svg"
+                                alt="arrow" />
+                        </div>
+                    </a>
+                    <a href="/refer&earn">
+                        <div class="side-row">
+                            <div class="icon">
+                                <img src="https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/refer.svg"
+                                    alt="refer&earn" width={32} />
+                                <h4 class="h4">Refer&Earn</h4>
+                            </div>
+                            <img src=" https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/arrow-nav.svg"
+                                alt="arrow" />
+                        </div>
+                    </a>
+                    <a href="/referral-history">
+                        <div class="side-row">
+                            <div class="icon">
+                                <img src="https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/referral.svg"
+                                    alt="referral-history" width={32} />
+                                <h4 class="h4">Referral History</h4>
+                            </div>
+                            <img src=" https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/arrow-nav.svg"
+                                alt="arrow" />
+                        </div>
+                    </a>
+                    <a href="/penalty-history">
+                        <div class="side-row">
+                            <div class="icon">
+                                <img src="https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/penalty.svg"
+                                    alt="penalty-history" width={32} />
+                                <h4 class="h4">Penalty History</h4>
+                            </div>
+                            <img src=" https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/arrow-nav.svg"
+                                alt="arrow" />
+                        </div>
+                    </a>
+                    <a href="/notification">
+                        <div class="side-row">
+                            <div class="icon">
+                                <img src="https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/notification.svg"
+                                    alt="notification" width={32} />
+                                <h4 class="h4">Notification</h4>
+                            </div>
+                            <img src=" https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/arrow-nav.svg"
+                                alt="arrow" />
+                        </div>
+                    </a>
+                    <a href="/support">
+                        <div class="side-row">
+                            <div class="icon">
+                                <img src="https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/support.svg"
+                                    alt="support" width={32} />
+                                <h4 class="h4">Support</h4>
+                            </div>
+                            <img src=" https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/arrow-nav.svg"
+                                alt="arrow" />
+                        </div>
+                    </a>
+                </div>
+                <div class="navMoney">
+
+                    <img src="https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/navMoney.svg"
+                        class="navMoney-img" alt="transation-menu">
+
+                </div>
+            </nav>
+            <div class="support">
+
+                <img src="https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/transaction-history-illustration.svg"
+                    alt="transaction"  />
+                <h5>No Transactions Yet!</h5>
+                <p>
+                    Seems like you haven't done any activity yet
+                </p>
+
+            </div>
+        </div>
+        <div class="right-section">
+            <img src="https://raw.githubusercontent.com/Devdatt-gautam/Apna-Ludo/91573fe0c75aa97f0e62d92d177905c03f5e0089/frontend/src/assets/contact-bg.svg"
+                alt=" Ludo">
+        </div>
+    </main>
+</body>
